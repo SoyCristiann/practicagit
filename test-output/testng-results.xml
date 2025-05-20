@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-19T23:15:01 COT" name="Platanitos Test Suite" finished-at="2025-04-19T23:15:22 COT" duration-ms="21272">
+    <groups>
+    </groups>
+    <test started-at="2025-04-19T23:15:01 COT" name="Platanitos Test" finished-at="2025-04-19T23:15:22 COT" duration-ms="21272">
+      <class name="Tests.BuscaProducto">
+        <test-method is-config="true" signature="configruacion()[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:01 COT" name="configruacion" finished-at="2025-04-19T23:15:05 COT" duration-ms="4119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configruacion -->
+        <test-method signature="buscarProductoExistente(java.lang.String)[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:05 COT" name="buscarProductoExistente" data-provider="productosValidos" finished-at="2025-04-19T23:15:07 COT" duration-ms="1797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[calzado]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarProductoExistente -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:07 COT" name="tearDown" finished-at="2025-04-19T23:15:07 COT" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configruacion()[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:07 COT" name="configruacion" finished-at="2025-04-19T23:15:10 COT" duration-ms="2768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configruacion -->
+        <test-method signature="buscarProductoExistente(java.lang.String)[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:10 COT" name="buscarProductoExistente" data-provider="productosValidos" finished-at="2025-04-19T23:15:12 COT" duration-ms="1740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ropa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarProductoExistente -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:12 COT" name="tearDown" finished-at="2025-04-19T23:15:12 COT" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configruacion()[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:12 COT" name="configruacion" finished-at="2025-04-19T23:15:15 COT" duration-ms="2816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configruacion -->
+        <test-method signature="buscarProductoExistente(java.lang.String)[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:15 COT" name="buscarProductoExistente" data-provider="productosValidos" finished-at="2025-04-19T23:15:17 COT" duration-ms="1942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[perfume]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarProductoExistente -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:17 COT" name="tearDown" finished-at="2025-04-19T23:15:17 COT" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="configruacion()[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:17 COT" name="configruacion" finished-at="2025-04-19T23:15:20 COT" duration-ms="3135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configruacion -->
+        <test-method signature="buscarProductoInexistente(java.lang.String)[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:20 COT" name="buscarProductoInexistente" data-provider="productosNoValidos" finished-at="2025-04-19T23:15:22 COT" duration-ms="1895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cualquiercosa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarProductoInexistente -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.BuscaProducto@6aeb35e6]" started-at="2025-04-19T23:15:22 COT" name="tearDown" finished-at="2025-04-19T23:15:22 COT" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.BuscaProducto -->
+    </test> <!-- Platanitos Test -->
+  </suite> <!-- Platanitos Test Suite -->
+</testng-results>
