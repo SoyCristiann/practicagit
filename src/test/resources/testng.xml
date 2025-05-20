@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Platanitos Test Suite">
+    <test name="Platanitos Test">
+        <classes>
+            <class name="Tests.BuscaProducto"/>
+        </classes>
+    </test>
+</suite>
